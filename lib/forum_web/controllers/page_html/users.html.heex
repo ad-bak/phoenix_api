@@ -1,0 +1,8 @@
+<h1>Users page</h1>
+<p>List of users will be here</p>
+
+<%= for user <- @users do %>
+  <li>
+    {user.name} - {user.email}
+  </li>
+<% end %>
